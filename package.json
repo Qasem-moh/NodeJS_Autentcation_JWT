@@ -1,0 +1,24 @@
+{
+  "name": "nodejsauthjwt",
+  "version": "1.0.0",
+  "description": "jwt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qasem-moh/nodejsauthjwt.git"
+  },
+  "keywords": [
+    "jwt",
+    "express",
+    "nodejs"
+  ],
+  "author": "Qasem-Moh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Qasem-moh/nodejsauthjwt/issues"
+  },
+  "homepage": "https://github.com/Qasem-moh/nodejsauthjwt#readme"
+}
