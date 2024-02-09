@@ -24,4 +24,4 @@ However, it's important to handle JWTs securely:
 - **Expiration:** Set reasonable expiration times for JWTs to mitigate the risk of replay attacks.
 - **Validation:** Always validate incoming JWTs to ensure their authenticity, integrity, and validity.
 
-Overall, JWTs are a powerful tool for authentication and authorization in web applications, offering a flexible and secure way to transmit claims between parties.
+[//]: # (Overall, JWTs are a powerful tool for authentication and authorization in web applications, offering a flexible and secure way to transmit claims between parties.)
