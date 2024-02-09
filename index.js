@@ -20,8 +20,3 @@ app.get('/',(req,res)=>res.render('home'));
 app.get('/smoothies', (req, res) => res.render('smoothies'));
 app.use(authRoutes)
 
-app.get('/set_cookies',(req,res)=>{
-    res.setHeader("set_cookies","New_User=true",)
-    res.send("you got the cookies")
-})
-app.get('/read_cookies',(req,res)=>{})
