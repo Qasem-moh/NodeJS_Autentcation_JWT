@@ -9,6 +9,7 @@ const cookieParser=require('cookie-parser')
 app.use(express.static('public'));
 app.use(express.json())
 app.set('view engine', 'ejs');
+app.use(cookieParser())
 
 const dbURI =process.env.MONGO_URI
 mongoose.connect(dbURI ,{ useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex:true})
